@@ -21,6 +21,8 @@
 		A21FA5B2187B9C94009A425F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21FA594187B9C94009A425F /* UIKit.framework */; };
 		A21FA5BA187B9C94009A425F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21FA5B8187B9C94009A425F /* InfoPlist.strings */; };
 		A21FA5BC187B9C94009A425F /* EasySideBarMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FA5BB187B9C94009A425F /* EasySideBarMenuTests.m */; };
+		A21FA5C7187B9CB0009A425F /* BPJMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FA5C6187B9CB0009A425F /* BPJMainMenuViewController.m */; };
+		A21FA5CD187C773F009A425F /* BPJTestTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21FA5CC187C773F009A425F /* BPJTestTopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,11 @@
 		A21FA5B7187B9C94009A425F /* EasySideBarMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasySideBarMenuTests-Info.plist"; sourceTree = "<group>"; };
 		A21FA5B9187B9C94009A425F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A21FA5BB187B9C94009A425F /* EasySideBarMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySideBarMenuTests.m; sourceTree = "<group>"; };
+		A21FA5C5187B9CB0009A425F /* BPJMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPJMainMenuViewController.h; sourceTree = "<group>"; };
+		A21FA5C6187B9CB0009A425F /* BPJMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPJMainMenuViewController.m; sourceTree = "<group>"; };
+		A21FA5CB187C773F009A425F /* BPJTestTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPJTestTopViewController.h; sourceTree = "<group>"; };
+		A21FA5CC187C773F009A425F /* BPJTestTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPJTestTopViewController.m; sourceTree = "<group>"; };
+		A24D22CA1901BA9E007F7FED /* BPJMenuBurgerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPJMenuBurgerHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +122,13 @@
 				A21FA59F187B9C94009A425F /* BPJAppDelegate.h */,
 				A21FA5A0187B9C94009A425F /* BPJAppDelegate.m */,
 				A21FA5A2187B9C94009A425F /* Main.storyboard */,
-				A21FA5A5187B9C94009A425F /* BPJViewController.h */,
+				A21FA5C5187B9CB0009A425F /* BPJMainMenuViewController.h */,
+				A21FA5C6187B9CB0009A425F /* BPJMainMenuViewController.m */,
+				A24D22CA1901BA9E007F7FED /* BPJMenuBurgerHandler.h */,
+				A21FA5CB187C773F009A425F /* BPJTestTopViewController.h */,
+				A21FA5CC187C773F009A425F /* BPJTestTopViewController.m */,
 				A21FA5A6187B9C94009A425F /* BPJViewController.m */,
+				A21FA5A5187B9C94009A425F /* BPJViewController.h */,
 				A21FA5A8187B9C94009A425F /* Images.xcassets */,
 				A21FA597187B9C94009A425F /* Supporting Files */,
 			);
@@ -251,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21FA59D187B9C94009A425F /* main.m in Sources */,
+				A21FA5CD187C773F009A425F /* BPJTestTopViewController.m in Sources */,
 				A21FA5A1187B9C94009A425F /* BPJAppDelegate.m in Sources */,
 				A21FA5A7187B9C94009A425F /* BPJViewController.m in Sources */,
+				A21FA5C7187B9CB0009A425F /* BPJMainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +475,7 @@
 				A21FA5C1187B9C94009A425F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A21FA5C2187B9C94009A425F /* Build configuration list for PBXNativeTarget "EasySideBarMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				A21FA5C4187B9C94009A425F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
